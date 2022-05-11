@@ -19,7 +19,9 @@ As we answer this question, we will be answering some secondary questions that w
 <h3 align="center">
 <b>Plot 1:</b> Relationships between different aspects of successful Russian troll accounts and their tweets
 </h3>
-<p align="center"><img src="/blob/main/tweet_characteristics.png?raw=true" width=100%></p>
+
+![](tweet_characteristics.png)
+
 This is a very rich plot and it reveals to us many aspects of the successful troll accounts and tweets. Starting off with the heatmap, we can analyze linear correlations between some of the features, and we can see how they relate to one another. We see that the strongest positive correlation is between 'Followers' and 'Following' which suggests that as the troll accounts followed more people, they would have more followers themselves, and therefore a larger reach. This principle is observable on many different social media, where bot accounts tend to send out follow requests en masse in the hopes that they will get more followers themselves, which establishes some sort of legitimacy and a greater reach.  
 With the scatterplots and KDE plots, we can analyze any non-linear relationships and any grouping that occurs by group category. For example, we can see that the 'NewsFeed' accounts tend to send fairly neutral tweets in terms of polarity and subjectivity, while the political accounts of 'LeftTrolls' and 'RightTrolls' tend to send tweets that are more subjective and polar. 
 
@@ -29,7 +31,9 @@ With the scatterplots and KDE plots, we can analyze any non-linear relationships
 <h3 align="center">
 <b>Plot 2:</b> Boxplots showing distributions of followers by account category
 </h3>
-<p align="center"><img src="followers_by_category.png"/ width=100%></p>
+
+![](followers_by_category.png)
+
 We can see that troll accounts classified as 'RightTrolls' have the greatest number of successful accounts on average, followed by the 'LeftTrolls'. Of course, while on average this is true, there is a signficant range of followers for the 'RightTroll' accounts, and some outliers for the 'NewsFeed' accounts are quite large as well. 
 
 ---
@@ -38,7 +42,9 @@ We can see that troll accounts classified as 'RightTrolls' have the greatest num
 <h3 align="center">
 <b>Plot 3:</b> Heatmap showing correlations between characteristics of successful RightTroll accounts
 </h3>
-<p align="center"><img src="right_heatmap.png"/ width=100%></p>
+
+![](right_heatmap.png)
+
 We can see that the 'RightTrolls' have an even greater positive correlation between 'Following' and 'Followers', strongly implying that there is a linear relationship between the two variables. We can also observe that 'Polarity' seems to have a neutral correlation with the success of the 'RightTrolls', while 'Subjectivity' actually has a moderate negative correlation with the follower count. 
 
 ---
@@ -47,7 +53,9 @@ We can see that the 'RightTrolls' have an even greater positive correlation betw
 <h3 align="center">
 <b>Plot 4:</b> Wordcloud of the top words used by successful troll accounts. 
 </h3>
-<p align="center"><img src="tweet_wordcloud.png"/ width=100%></p>
+
+![](tweet_wordcloud.png)
+
 We can see that a big focus of tweets sent out or retweeted by the successful troll accounts was political. With 'trump' being the single most common word and 'obama' being up there too, there was a big focus on US presidents in their tweets. Beyond that, some divisive language was very common, such as 'death', 'murder', 'attack', 'shooting', and 'killed'. In general, this language could potentially serve to bring about quarreling and incite fear among those who read these tweets.  
 
 ---
