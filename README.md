@@ -19,7 +19,7 @@ As we answer this question, we will be answering some secondary questions that w
 <h3 align="center">
 <b>Plot 1:</b> Relationships between different aspects of successful Russian troll accounts and their tweets
 </h3>
-<p align="center"><img src="tweet_characteristics.png" width=100%></p>
+<p align="center"><img src="https://github.com/fahmiislam/Russian-Troll-Tweet-Analysis/blob/main/tweet_characteristics.png?raw=true" width=100%></p>
 This is a very rich plot and it reveals to us many aspects of the successful troll accounts and tweets. Starting off with the heatmap, we can analyze linear correlations between some of the features, and we can see how they relate to one another. We see that the strongest positive correlation is between 'Followers' and 'Following' which suggests that as the troll accounts followed more people, they would have more followers themselves, and therefore a larger reach. This principle is observable on many different social media, where bot accounts tend to send out follow requests en masse in the hopes that they will get more followers themselves, which establishes some sort of legitimacy and a greater reach.  
 With the scatterplots and KDE plots, we can analyze any non-linear relationships and any grouping that occurs by group category. For example, we can see that the 'NewsFeed' accounts tend to send fairly neutral tweets in terms of polarity and subjectivity, while the political accounts of 'LeftTrolls' and 'RightTrolls' tend to send tweets that are more subjective and polar. 
 
