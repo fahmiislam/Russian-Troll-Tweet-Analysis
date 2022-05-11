@@ -14,23 +14,21 @@ def hide_current_axis(*args, **kwargs):
 
 if __name__ == '__main__':
 
-    # df = pd.read_csv('all_tweets.csv', low_memory=False)
-    # df.drop(columns=['harvested_date', 'new_june_2018'], inplace=True)
-    # df = df[df.account_category != 'account_category']
+    df = pd.read_csv('all_tweets.csv', low_memory=False)
+    df.drop(columns=['harvested_date', 'new_june_2018'], inplace=True)
+    df = df[df.account_category != 'account_category']
 
-    # df = df.astype({'external_author_id': np.float64,
-    #                 'following':          np.int64,
-    #                 'followers':          np.int64,
-    #                 'retweet':            np.int64,
-    #                 'content':            'str',
-    #                 'account_category':   'str'})
+    df = df.astype({'external_author_id': np.float64,
+                    'following':          np.int64,
+                    'followers':          np.int64,
+                    'retweet':            np.int64,
+                    'content':            'str',
+                    'account_category':   'str'})
     
-    # df = df[(df.region == 'United States') & (df.language == "English")]
+    df = df[(df.region == 'United States') & (df.language == "English")]
     
-    # df['polarity'], df['subjectivity'] = (df.content.apply(lambda x: TextBlob(x).sentiment.polarity)), \
-    #                                      (df.content.apply(lambda x: TextBlob(x).sentiment.subjectivity))
-    
-    df = pd.read_csv('df_with_sentiment.csv')
+    df['polarity'], df['subjectivity'] = (df.content.apply(lambda x: TextBlob(x).sentiment.polarity)), \
+                                         (df.content.apply(lambda x: TextBlob(x).sentiment.subjectivity))
 
     df_plot = df.loc[(df.account_category != 'NonEnglish')  & \
                     (df.account_category != 'Unknown')     & \
