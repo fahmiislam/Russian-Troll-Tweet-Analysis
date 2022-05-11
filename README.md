@@ -50,3 +50,8 @@ We can see that the 'RightTrolls' have an even greater positive correlation betw
 <p align="center"><img src="tweet_wordcloud.png"/ width=100%></p>
 We can see that a big focus of tweets sent out or retweeted by the successful troll accounts was political. With 'trump' being the single most common word and 'obama' being up there too, there was a big focus on US presidents in their tweets. Beyond that, some divisive language was very common, such as 'death', 'murder', 'attack', 'shooting', and 'killed'. In general, this language could potentially serve to bring about quarreling and incite fear among those who read these tweets.  
 
+---
+
+Bibliography:  
+
+Linvill, D and Warren, P "Troll Factories: The Internet Research Agency and State-Sponsored Agenda Building" June 2018 http://pwarren.people.clemson.edu/Linvill_Warren_TrollFactory.pdf
