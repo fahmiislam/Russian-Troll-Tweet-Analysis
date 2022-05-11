@@ -74,7 +74,7 @@ We can see that a big focus of tweets sent out or retweeted by the successful tr
 
 ### Conclusions:
 
-text
+When considering which characteristics of Russian troll accounts and tweets led to the greatest amount of success, we were able to reach a few specific conclusions. First off, being political in general may lead to greater success, as the RightTroll and LeftTroll accounts were the top two most successful account categories on average. We also observed a very strong positive correlation between follower count and following count for all successful accounts as well as the most successful account category, the RightTrolls. Also with the RightTrolls, we were able to see what type of language these accounts were using that may have led to their success, and we found that they were  often intentionally divisive and controversial, which may draw in specific audiencies to further their success. These conclusions would suggest that in order to maximize success, following many other users and being overtly political is a strong method. 
 
 ---
 
