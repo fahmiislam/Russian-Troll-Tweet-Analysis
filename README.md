@@ -15,6 +15,18 @@ As we answer this question, we will be answering some secondary questions that w
 
 ---
 
+### Background: 
+
+We are analyzing the Russian troll tweet dataset in order to identify the specific attributes of successful troll accounts, in this case success being defined as being able to spread their message to a large number of other users. We are measuring the success by using the ‘followers’ column in the dataset, which displays the number of followers that a specific troll account has, and we are specifically analyzing troll accounts that had garnered greater than 10,000 followers. We are running a sentiment analysis of the tweets, which works optimally with English tweets, so we subset the data to only include tweets that were in English. We are also only analyzing the account categories discussed in the paper by Linvill and Warren (linked above), as the other account categories lack detailed information. In doing this, we are able to analyze which characteristics result in the most powerful or effective troll account, and perhaps a better idea of how to combat or even build effective troll accounts ourselves. 
+
+There were 4 account categories that we found were successful:
+* LeftTroll: Spread socially liberal tweets particularly focusing on topics relating to gender, sexuality, and race. Bashed mainstream Democratic candidates including Hillary Clinton while supporting Bernie Sanders prior to the 2016 election. 
+* NewsFeed: Appeared as U.S. local news gatherers, sent links to local news stories and tweeted about local issues.
+* HashtagGamer: Tweeted entirely regarding hashtag games on Twitter. 
+* RightTroll: Spread right-wing messages and supported the candidacy of former President Trump. Also bashed the Democratic party as well as moderate Republicans.
+
+---
+
 <h2 align="center">What characteristics of troll accounts and their tweets make them successful??</h2>
 <h3 align="center">
 <b>Plot 1:</b> Relationships between different aspects of successful Russian troll accounts and their tweets
@@ -57,6 +69,12 @@ We can see that the 'RightTrolls' have an even greater positive correlation betw
 ![](tweet_wordcloud.png)
 
 We can see that a big focus of tweets sent out or retweeted by the successful troll accounts was political. With 'trump' being the single most common word and 'obama' being up there too, there was a big focus on US presidents in their tweets. Beyond that, some divisive language was very common, such as 'death', 'murder', 'attack', 'shooting', and 'killed'. In general, this language could potentially serve to bring about quarreling and incite fear among those who read these tweets.  
+
+---
+
+### Conclusions:
+
+text
 
 ---
 
